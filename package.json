@@ -17,7 +17,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/veljkoza/react-query-factory.git"
+    "url": "git+https://github.com/Namlh1912/react-query-factory.git"
   },
   "author": "Veljko Sekulic <veljko.sekulic@mail.com>, @veljkoza, v-sekulic",
   "license": "MIT",
@@ -74,8 +74,5 @@
     "rollup-plugin-peer-deps-external": "^2.2.4",
     "tslib": "^2.5.0",
     "typescript": "^5.0.4"
-  },
-  "dependencies": {
-    "@tanstack/react-query": "^5.52.2"
   }
 }

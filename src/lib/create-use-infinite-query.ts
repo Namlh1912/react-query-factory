@@ -80,7 +80,7 @@ function createUseInfiniteQuery<
     return useInfiniteQuery({
       queryFn: () => serviceFn(params),
       queryKey: computedKey,
-      getNextPageParam: (lastPage, allPages, lastPageParam, allPageParams) =>
+      getNextPageParam: (lastPage: TResult, allPages: TResult[], lastPageParam: unknown, allPageParams: unknown[]) =>
         getNextPageParam(lastPage, allPages, lastPageParam, allPageParams),
       initialPageParam,
       ...options,
